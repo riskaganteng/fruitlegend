@@ -1,0 +1,115 @@
+.navbar{
+display: flex;
+background-color: rgb(red, green, blue);
+
+}
+
+.logo{
+    display: inline-block;
+    width: 150px;
+    margin: auto;
+    height: 100px;
+    color: #2c8d88;
+    top: 30px;
+    
+}
+.carousel-caption {
+    top: 500px;
+    cursor: pointer;
+}
+
+
+.carousel-item{
+    
+    min-height: 100px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-color: black;
+    overflow:hidden ;
+    max-height: 110vh;
+}
+.carousel-team{
+    
+    min-height: 20px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-color: black;
+    overflow:hidden ;
+    max-height: 50vh;
+}
+
+.carousel-item img{
+    opacity: 0.5;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #2c8d88(0, 0, 0);
+    opacity: 0.7;
+}
+.nav-link{
+   
+    color: saddlebrown;
+    font-size: 16px;
+    margin: 3px;
+    font-weight: 500;
+}
+
+.carousel-caption {
+    top:500px;
+
+    
+}
+
+.carousel-caption h5{
+    font-size: 50px;
+    font-weight: 00;
+    line-height: 56px;
+}
+
+.text-green{
+    color:#2c8d88 ;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.card-product .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center;
+}
+.card-product .img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+.card-product .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.label-rating { margin-right:10px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-product .price-old {
+    color: #999;
+}
